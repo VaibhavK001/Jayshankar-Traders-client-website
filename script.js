@@ -37,6 +37,76 @@ const products = [
         price:820,
         piecesPerBox:24,
         image:"images/thumbsup.webp"
+    },
+    {
+        id:5,
+        name:"Fanta",
+        price:890,
+        piecesPerBox:24,
+        image:"images/fanta.webp"
+    },
+    {
+        id:6,
+        name:"Maza",
+        price:980,
+        piecesPerBox:24,
+        image:"images/maza.webp"
+    },
+    {
+        id:7,
+        name:"7up",
+        price:780,
+        piecesPerBox:24,
+        image:"images/7up.webp"
+    },
+    {
+        id:8,
+        name:"Bisleri",
+        price:990,
+        piecesPerBox:24,
+        image:"images/bisleri.webp"
+    },
+    {
+        id:9,
+        name:"Mirinda",
+        price:770,
+        piecesPerBox:24,
+        image:"images/mirinda.webp"
+    },
+    {
+        id:10,
+        name:"Monster",
+        price:1280,
+        piecesPerBox:12,
+        image:"images/monster.webp"
+    },
+    {
+        id:11,
+        name: "Mountain-dew",
+        price:990,
+        piecesPerBox:24,
+        image:"images/mountain-dew.webp"
+    },
+    {
+        id:12,
+        name:"Pepsi",
+        price:880,
+        piecesPerBox:24,
+        image:"images/pepsi.webp"
+    },
+    {
+        id:13,
+        name:"Red bull",
+        price:6330,
+        piecesPerBox:24,
+        image:"images/redbull.webp"
+    },
+    {
+        id:14,
+        name:"Predator",
+        price:1340,
+        piecesPerBox:12,
+        image:"images/predator.webp"
     }
 
 ]
