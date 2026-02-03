@@ -134,7 +134,11 @@
 }
 
 
-
+#main h1{
+  font-size: 25px;
+  text-align: center;
+  margin: 25px auto;
+}
 
 
 body {
@@ -145,6 +149,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  margin: 8px;
 }
 
 .product-card {
@@ -152,6 +157,9 @@ body {
   padding: 15px;
   text-align: center;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .product-card img {
@@ -167,4 +175,20 @@ button {
   padding: 10px;
   cursor: pointer;
   border-radius: 5px;
+}
+
+
+
+
+
+
+.footer-container{
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  margin:0 auto;
+  padding: 25px 20px;
+}
+.footer-copyright{
+  font-size: small;
 }
