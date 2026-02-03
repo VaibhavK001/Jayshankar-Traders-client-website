@@ -30,6 +30,13 @@ const products = [
         price:920,
         piecesPerBox:24,
         image:"images/sting.webp"
+    },
+    {
+        id:4,
+        name:"Thums Up",
+        price:820,
+        piecesPerBox:24,
+        image:"images/thumbsup.webp"
     }
 
 ]
