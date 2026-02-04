@@ -107,6 +107,13 @@ const products = [
         price:1340,
         piecesPerBox:12,
         image:"images/predator.webp"
+    },
+    {
+        id:15,
+        name:"Jeera soda",
+        price:880,
+        piecesPerBox:24,
+        image:"images/jeera.webp"
     }
 
 ]
