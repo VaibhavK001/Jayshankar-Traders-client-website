@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.cart-container {
+  border: 2px solid orangered;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.cart-item {
+  border: 1px solid #405bb6;
+  padding: 15px;
+  border-radius: 6px;
+
+  width: 48%;               /* 🔑 allows 2 per row */
+  box-sizing: border-box;
+
+  display: flex;            /* 🔑 image + text side by side */
+  gap: 15px;
+}
+
+
+.cart-img {
+  width: 160px;
+  height: 160px;
+  border: 1px solid red;
+  padding: 2px;
+  object-fit: contain;
+  flex-shrink: 0;           /* 🔑 prevents shrinking */
+}
+
+
+
+h2{
+    text-align: center;
+    margin-top: 0px;
+}
+.cart-description {
+  border: 1px solid black;
+  padding: 10px;
+  flex: 1;
+}
+
+
+.cart-item h4 {
+  margin: 0 0 8px;
+}
+
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.qty-controls button {
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background: crimson;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#cart-summary {
+  border-top: 2px solid #000;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.final-total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
